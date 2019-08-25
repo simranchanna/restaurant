@@ -1,0 +1,245 @@
+body{
+    margin: 0%;
+    width: 100%;
+}
+/*-----------------------HOME--------------------------*/
+#home{
+    padding-top: 25px;
+    height: 85%;
+    background-size: cover;
+    background-image: url('images/restaurant-5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav-a{
+    color: #fafafa;
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.nav-a:hover{
+    color: #fafafa;
+}
+.navbar-brand{
+    color: #fafafa;
+    font-family: 'Merienda One', cursive;
+    padding-left: 200px;
+}
+.fab{
+    color: #f7be16;
+}
+.social{
+    padding: 17px 10px 10px 10px;
+}
+.container{
+    margin-top: 150px;
+}
+.heading{
+    color: #fafafa;
+    font-size: 6rem;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+.buttons{
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.button-1{
+    margin: 20px;
+    padding: 20px;
+    background-color: #000;
+    opacity: 0.5;
+}
+.button-2{
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+.btn-1{
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    top: 4px;
+}
+.btn-1:hover{
+    color: #fff;
+}
+.btn-2{
+    color: #000;
+    padding: 10px;
+    position: relative;
+    top: 4px;
+}
+.btn-2:hover{
+    color: #000;
+}
+/*-------------ABOUT------------------*/
+#about{
+    padding-top: 80px;
+    height: 80%;
+    text-align: center;
+}
+.about-cont{
+    position: relative;
+    left: 100px;
+}
+.about-title{
+    font-family: 'Abril Fatface', cursive;
+    color: #df8931;
+    font-size: 3rem;
+}
+.about-content{
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-img{
+    position: relative;
+    right: 400px;
+    bottom: 50px;
+    height: 650px;
+}
+/*----------INGREDIENTS------------*/
+#ingredients{
+    height: 85%;
+    background-image: url('images/restaurant-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ingredient{
+    padding-top: 50px;
+}
+.ingred-head{
+    padding-top: 50px;
+}
+.ingred-cont{
+    height: 500px;
+    margin: 50px 250px 20px 550px;
+    background-color: #000;
+    opacity: 0.5;
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Abril Fatface', cursive;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+}
+.ingred-img{
+    text-align: center;   
+    position: relative;
+    bottom: 60px;
+ }
+ .ing-img{
+     height: 300px;
+     padding-right: 20px;
+ }
+/*---------------MENU-----------------*/
+#menu{
+    height: 85%;
+    padding-top: 80px;
+}
+.menu-column-1{
+    margin: 0% 70px 0% 250px;  
+}
+.menu-column-2{
+    margin: 0% 250px 0% 70px;  
+}
+.menu-heading{
+    font-family:  'Abril Fatface', cursive;
+    color: #df8931;
+    text-align: center;
+}
+.items{
+    margin: 50px 20px 20px 20px;
+}
+hr{
+    color: #df8931;
+}
+.item-name{
+    font-family:  'Abril Fatface', cursive;
+    color: #df8931;
+    float: left;
+}
+.item-price{
+    font-family:  'Abril Fatface', cursive;
+    color: #df8931;
+    float: right;
+}
+.item-detail{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 48px;
+    right: 85px;
+}
+/*---------------------REVIEWS------------------*/
+#reviews{
+    height: 85%;
+    background-image: url('images/restaurant-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.review{
+    margin: 0% 28% 10% 28%;
+    position: relative;
+    top: 10%;
+    background-color: #000;
+    opacity: 0.7;
+}
+.review-heading{
+    font-family:  'Abril Fatface', cursive;
+    color: #fff;  
+    font-weight: bold;
+    padding-top: 10%; 
+}
+.review-content{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10% 10% 10% 10% ;
+}
+.rev-src{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+/*-------------RESERVATIONS------------------*/
+#reservations{
+    height: 70%;
+    padding: 5% 12% 5% 12%;
+}
+.last-img{
+    margin: 0% 2% 0% 2%;
+}
+form{
+    margin-top: 30px;
+}
+label{
+    color: #df8931;
+    font-weight: bold;
+}
+.inputs{
+    position: relative;
+    left: 120px;
+}
+.book-now{
+    margin-top: 40px; 
+    background-color: #df8931;
+    color: #fff;
+    border-color: #df8931;
+    padding: 3px 30px 3px 30px;
+}
+footer{
+    height: 30%;
+    padding-top: 3%;
+    background-color: #2b2b28;
+    color: #fafafa;
+    text-align: center;
+}
+.footer-hd{
+    font-family:  'Abril Fatface', cursive;
+}
